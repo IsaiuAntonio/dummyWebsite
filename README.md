@@ -20,7 +20,7 @@ npx json-server --watch db.json
 
 1. Clean up CSS, make it nice
 2. Add images
-3. Create a image slide
+3. Create an image slide
 4. If discount - calculate discounted price, add to HTML make it nice
 5. Make it obvious which is the price, discount, rating, stock
 6. Add unique ids to HTML for each product

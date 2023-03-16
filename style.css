@@ -1,9 +1,107 @@
+* {
+    border-collapse: inherit;
+    box-sizing: border-box;
+}
 body {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4px;
+    background-color: bisque;
+}
+article {
+    margin-left: 6px;
+    max-width: 96%;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 3px 3px grey;
+    background-color: lightgray;
+    border: 1px solid black;}
+
+   
+/* body {
+    max-width: 100%;
+    gap: 10px;
+    
+} */
+  .newPriceBoxSection {
+    font-weight: 500 ;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
 }
 
-article {
-    box-shadow: 3px 3px 3px 3px grey;
+.newPriceBoxSection :first-child {
+
+    display: inline;
+    margin-left: 10px;
+    }
+   
+.newPriceBoxSection > p:nth-child(2) {
+    background-color: navy;
+    color: whitesmoke;
+    display: inline;
+    margin-left: 1px;
+    padding: 1px;
+    border-radius: 5px;
+    border: 3px solid, black;
 }
+
+.newPriceBoxSection > p:nth-child(4) {
+    color:white;
+    border-radius: 5px;
+    padding: 2px 2px;
+    margin-left: 8px;
+    background-color: red;
+    display: inline;
+    font-weight: bold;
+}
+
+.newPriceBoxSection > p:nth-child(5) {
+    margin-left: 10px;
+}
+.newPriceBoxSection > p:nth-child(6) {
+    background-image: url();
+    margin-left: 10px;
+}
+
+
+img {
+    border-radius: 0.5rem 0.5rem 0 0;
+    width:100%;
+}
+
+
+*/
+ .newImageSection > a {
+    cursor: pointer;
+    background-color: gray;
+    margin-top: calc(height/2);
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0 3px 3px 0;
+    user-select: none; }
+
+/* AICIA O SA PUI BUTOANELE PESTE IMAGES */
+a {
+    background-color: gray;
+    color: whitesmoke;
+}
+ a:first-child {
+    padding: 2rem;
+    background-color: gray;
+    color: white;
+    float: left;
+ }
+ a:last-child {
+    float: right;
+ }
+
+/* .newImageSection > a:last-child {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+} */
+/*
+.imageSlider {
+    height:fit-content;
+} */
